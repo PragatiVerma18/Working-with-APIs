@@ -9,6 +9,7 @@ To get this project up and running locally on your computer:
    ```
    virtualenv env
    .\\env\\Scripts\\activate
+   
    ```
 2. Clone the repository
    
@@ -30,8 +31,9 @@ To get this project up and running locally on your computer:
 5. Open tab to `http://127.0.0.1:8000` to see the main site, signup and then login to move to the create page or move to
    
    ```
-   http://127.0.0.1:8000/create
-   ``
+   http://127.0.0.1:8000/create/
+   
+   ```
 
 ## Resources Used:
 1. <a href="https://django-rest-auth.readthedocs.io/en/latest/installation.html">django-rest-auth</a>
@@ -50,5 +52,5 @@ To authenticate the users.
 3. <pre> api/token/ </pre>
 To obtain an API token.
 
-3. <pre> create/ </pre>
+4. <pre> create/ </pre>
 To create a post.
